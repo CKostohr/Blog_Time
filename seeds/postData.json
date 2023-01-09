@@ -1,0 +1,20 @@
+[
+    {
+      "title": "I just set up K3S and rancher.",
+      "content": "What else can I do with a multi computer setup?",
+      "date_created": "09/14/2022",
+      "user_id": 1
+    },
+    {
+      "title": "What can I do with an ARM like Raspberry Pi?",
+      "content": "I just got mine for a Christmas gift.",
+      "date_created": "12/25/2022",
+      "user_id": 2
+    },
+    {
+      "title": "Has anyone used Nivida Jetson over a Raspberry Pi?",
+      "content": "I just got a new arm divice!",
+      "date_created": "01/01/2023",
+      "user_id": 2
+    }
+  ]

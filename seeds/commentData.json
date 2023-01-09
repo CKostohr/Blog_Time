@@ -1,0 +1,20 @@
+[
+    {
+        "content":"What are you using K3S for?",
+        "date_created": "10/01/2022",
+        "user_id": 2,
+        "post_id": 1
+      },
+      {
+        "content":"The sky is the limit",
+        "date_created": "12/02/2022",
+        "user_id": 3,
+        "post_id": 2
+      },
+      {
+        "content":"I love raspberry Pie!",
+        "date_created": "09/23/2021",
+        "user_id": 2,
+        "post_id": 3
+      }
+]

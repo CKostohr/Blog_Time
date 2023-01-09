@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3001;
 const hbs = exphbs.create({ helpers });
 
 const sess = {
-  secret: 'Raspberry Pi is fun',
+  secret: 'Super secret secret',
   cookie: {
     maxAge: 300000,
     httpOnly: true,
@@ -30,7 +30,6 @@ const sess = {
 
 app.use(session(sess));
 
-// Inform Express.js on which template engine to use
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
