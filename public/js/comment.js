@@ -62,4 +62,4 @@ for (let i=0; i < commentBtns.length; i++) {
         event.target.classList.add("hide")
         event.target.parentNode.appendChild(commentDiv)
     })
-}
+  }
