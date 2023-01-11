@@ -1,15 +1,23 @@
 {
   "name": "blog_time",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CKostohr/Blog_Time.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CKostohr/Blog_Time/issues"
+  },
+  "homepage": "https://github.com/CKostohr/Blog_Time#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
@@ -17,8 +25,8 @@
     "express": "^4.18.2",
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
     "mysql2": "^2.3.3",
-    "path": "^0.12.7",
     "sequelize": "^6.28.0"
   }
 }
