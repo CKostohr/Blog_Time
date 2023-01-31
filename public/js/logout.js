@@ -1,7 +1,7 @@
 let logoutBtn = document.getElementById("logout");
 
 logoutBtn.addEventListener("click", async () => {
-  console.log("you logged out bro")
+  console.log("you logged out Pi User")
   const response = await fetch('/api/users/logout', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
